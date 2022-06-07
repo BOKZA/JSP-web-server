@@ -1,0 +1,9 @@
+create table form_board(
+	num int not null auto_increment primary key,
+	name varchar(30) not null,
+	id varchar(30) not null,
+	pwd varchar(30) not null,
+	phone varchar(30) not null,
+	email varchar(30) not null,
+	birth varchar(30) not null
+);
